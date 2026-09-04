@@ -1,0 +1,15 @@
+{
+  "extends": "./jsconfig.json",
+  "include": [
+    "pages/**/*.js",
+    "tests/**/*.js",
+    "fixtures/**/*.js",
+    "utils/**/*.js",
+    "playwright.config.js",
+    "data/**/*.json"
+  ],
+  "exclude": ["node_modules", "test-results", "playwright-report", "blob-report"],
+  "compilerOptions": {
+    "skipLibCheck": true
+  }
+}
