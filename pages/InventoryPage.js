@@ -46,6 +46,9 @@ export default class InventoryPage {
   }
 
   async getCartBadgeCount() {
+    if(await this.cartBadge.count() === 0) {
+      return 0;
+    }
     const text = await this.cartBadge.textContent();
     return text ? parseInt(text, 10) : 0;
   }
