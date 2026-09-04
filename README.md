@@ -2,12 +2,6 @@
 
 A production-grade, data-driven end-to-end test automation suite for the [SauceDemo](https://www.saucedemo.com) e-commerce application. Built with Playwright Test and JavaScript (ES2022+), this project demonstrates enterprise patterns including the Page Object Model (POM), data-driven testing (DDT), custom fixtures, dynamic price validation, and CI integration.
 
-## Target Users
-
-- QA engineers and SDETs looking for a reference Playwright implementation
-- Developers who need to validate checkout flows against a stable demo site
-- Teams seeking a template for data-driven browser automation with artifact capture
-
 ## Key Value
 
 - **Reliability**: Strict page-object isolation, wait strategies, and floating-point-safe price assertions reduce flakiness.
